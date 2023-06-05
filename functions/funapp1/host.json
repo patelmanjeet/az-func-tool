@@ -1,0 +1,21 @@
+{
+  "version": "2.0",
+  "extensionBundle": {
+    "id": "Microsoft.Azure.Functions.ExtensionBundle",
+    "version": "[3.15.0, 4.0.0)"
+  },
+  "extensions": {
+    "queues": {
+        "messageEncoding": "none"
+    }
+  },
+  "logging": {
+      "fileLoggingMode": "always",
+      "logLevel": {
+        "default": "Warning",
+        "Host": "Warning",
+        "Function": "Information",
+        "Host.Aggregator": "Warning"
+      }
+    }
+}
